@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>quizzapp</title>
-    <link rel="stylesheet" href="style.js">
+    <title>quizapp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
     <script src="script.js"></script>
+    <script type="module">
+        import { Toast } from 'bootstrap.esm.min.js'
+
+        Array.from(document.querySelectorAll('.toast'))
+            .forEach(toastNode => new Toast(toastNode))
+    </script>
 </head>
+
 <body>
-    
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">QuizApp</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="img/question.jpg" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Quest</h5>
+
+                <div class="card mb-2">
+                    <div class="card-body">
+                      Answer
+                    </div>
+                  </div>
+
+                  <div class="card mb-2">
+                    <div class="card-body">
+                        Answer
+                    </div>
+                  </div>
+
+                  <div class="card mb-2">
+                    <div class="card-body">
+                        Answer
+                    </div>
+                  </div>
+
+                  <div class="card mb-2">
+                    <div class="card-body">
+                        Answer
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>

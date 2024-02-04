@@ -1,0 +1,12 @@
+body {
+    background-color: #181a1bff !important;
+    /* min-height: 100vh; */
+    color: #787a7aff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
