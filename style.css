@@ -1,6 +1,5 @@
 body {
     background-color: #181a1bff !important;
-    /* min-height: 100vh; */
     color: #787a7aff;
 }
 
@@ -9,4 +8,20 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+.quiz-card {
+    width: 30rem;
+}
+
+.question-footer {
+    border-top: 1px solid rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.quiz-answer-card:hover {
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
 }
