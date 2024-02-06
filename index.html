@@ -25,13 +25,22 @@
 
     <div class="container">
         <div class="card quiz-card">
-            <img src="img/question.jpg" id="header-image" class="card-img-top">
+            <img src="img/question.jpg" id="header_image" class="card-img-top">
+
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25">
+                <div class="progress-bar" id="progress_bar">25%</div>
+            </div>
 
             <div class="card-body" id="end_screen" style="display: none;">
                 <h1 class="text-center">game over
                 </h1>
-                <div class="text-center"> 
-                    Das hast <b id="amount_right">XXX</b> Fragen von <b id="amount_questions">XXX</b> richtig beantwortet.
+                <div class="text-center">
+                    Das hast <b id="amount_right">XXX</b> Fragen von <b id="amount_questions">XXX</b> richtig
+                    beantwortet.
+                </div>
+
+                <div class="button-style">
+                    <button onclick="restartGame()" type="button" class="btn btn-dark" id="">new game</button>
                 </div>
             </div>
 
