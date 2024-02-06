@@ -1,6 +1,6 @@
 body {
     background-color: #181a1bff !important;
-    color: #787a7aff;
+    /* color: #787a7aff; */
 }
 
 .container {
@@ -24,4 +24,16 @@ body {
 .quiz-answer-card:hover {
     background-color: rgba(0,0,0,0.1);
     cursor: pointer;
+}
+
+.bg-success, .bg-danger {
+    color: white !important;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
 }
